@@ -1,0 +1,34 @@
+[
+  {
+    "review_title": "Ótimo produto",
+    "review_text": "O produto superou minhas expectativas!",
+    "overall_rating": 5,
+    "submission_date": "2025-05-08",
+    "product_id": 123,
+    "reviewer_id": 456
+  },
+  {
+    "review_title": "Bom custo-benefício",
+    "review_text": "Funciona bem pelo preço que paguei.",
+    "overall_rating": 4,
+    "submission_date": "2025-05-07",
+    "product_id": 124,
+    "reviewer_id": 457
+  },
+  {
+    "review_title": "Decepcionante",
+    "review_text": "Não gostei da qualidade, esperava mais.",
+    "overall_rating": 2,
+    "submission_date": "2025-05-06",
+    "product_id": 125,
+    "reviewer_id": 458
+  },
+  {
+    "review_title": "Horrível",
+    "review_text": "Não gostei da qualidade, esperava mais.",
+    "overall_rating": 1,
+    "submission_date": "2025-05-06",
+    "product_id": 126,
+    "reviewer_id": 459
+  }
+]
