@@ -1,3 +1,3 @@
-export type MainTopics = {
-  topics: string[];
+export type TopicType = {
+  extracted_topics: string[];
 };

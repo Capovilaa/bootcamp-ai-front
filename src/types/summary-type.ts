@@ -1,3 +1,3 @@
 export type Summary = {
-  summary: string;
+  resumo_final: string;
 };

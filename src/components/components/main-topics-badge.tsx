@@ -7,13 +7,17 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Badge } from "@/components/ui/badge";
-import { MainTopics } from "@/types/topic-type";
+import { TopicType } from "@/types/topic-type";
 
-export function MainTopicsBadge({ topics }: MainTopics) {
+type MainTopicsBadgeProps = {
+  extracted_topics: string[];
+};
+
+export function MainTopicsBadge({ extracted_topics }: MainTopicsBadgeProps) {
   return (
     <ScrollArea className="w-full max-h-40 p-2 overflow-y-auto">
       <div className="flex gap-2">
-        {topics.map((topic, index) => (
+        {extracted_topics.map((topic: any, index: any) => (
           <TooltipProvider key={index}>
             <Tooltip>
               <TooltipTrigger>

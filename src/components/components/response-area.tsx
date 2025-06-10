@@ -3,9 +3,12 @@
 import React, { useState, useEffect } from "react";
 import { Textarea } from "@/components/ui/textarea";
 import { MESSAGES } from "@/app/messages/en";
-import { Summary } from "@/types/summary-type";
 
-export function ResponseArea({ summary }: Summary) {
+type ResponseAreaProps = {
+  summary: string | null;
+};
+
+export function ResponseArea({ summary }: ResponseAreaProps) {
   const [typedText, setTypedText] = useState<string>("");
 
   useEffect(() => {
